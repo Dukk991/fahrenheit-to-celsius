@@ -1,0 +1,12 @@
+//Fahrenheit to celsius - simple code for simple schoolwork. I might come back to this at some point and improve it, since I'm still a newbie.
+
+#include <stdio.h>
+int main(){
+float fahrenheit;
+printf("Please enter the tempature in fahrenheits\n");
+scanf("%f", &fahrenheit);
+float celsius = (fahrenheit-32)*5/9;
+printf("\n%.2f fahrenheit in celsius would be %f.2\n", fahrenheit, celsius);
+return 0;
+
+//As I said, I'm still very inexperienced and there could probably be improvements to this code. I might have added something useless in there but it works
